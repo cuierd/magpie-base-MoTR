@@ -1,0 +1,61 @@
+{
+  "screens": {
+    "AwaitIteratedResultScreen": {
+      "description": "此画面等待本实验前一次迭代的结果。"
+    },
+    "ConnectInteractiveScreen": {
+      "description": "此画面为交互实验建立 socket 连接，并等待其他参与者加入，以满足开始交互实验所需的参与者人数。"
+    },
+    "EyetrackingCalibrationScreen": {
+      "start": "请稍候，正在设置眼动追踪。",
+      "instruction": "请跟随并点击红点。",
+      "error": "出现了问题。请刷新页面。"
+    },
+    "EyetrackingValidationScreen": {
+      "instruction": "请注视中心的蓝点。",
+      "error": "出现了问题。请刷新页面。"
+    },
+    "PostTestScreen": {
+      "instruction": "以下问题为可选，但您的回答将帮助我们分析结果。",
+      "age": "年龄",
+      "gender": "性别",
+      "male": "男",
+      "female": "女",
+      "otherGender": "其他",
+      "education": "教育程度",
+      "educationBelowHighschool": "未完成高中学业",
+      "educationHighschool": "高中毕业",
+      "educationCollege": "大学毕业",
+      "educationHigher": "更高学历",
+      "nativeLanguages": "母语",
+      "nativeLanguagesExplanation": "您小时候在家中使用的语言",
+      "comments": "其他意见",
+      "belowHighschool": "screens.PostTestScreen.belowHighschool"
+    },
+    "SubmitResultsScreen": {
+      "waiting": "正在提交您的数据,请稍候......",
+      "done": "全部完成。谢谢！页面将自动跳转至Prolific(若一分钟内无跳转可关闭本页面)......",
+      "error": "在线提交结果时出现了问题。",
+      "contact": "请点击如下按钮下载您的数据，然后将它作为附件通过电子邮件发送至本研究的作者：",
+      "download": "下载数据"
+    }
+  },
+  "general": {
+    "nextButton": "下一页",
+    "start": "开始",
+    "go": "继续",
+    "send": "发送"
+  },
+  "interactive": {
+    "Chat": {
+      "messageLabel": "在此输入您要发送给另一位参与者的消息。",
+      "statusYouJoined": "您已加入",
+      "statusYouLeft": "您已离开",
+      "statusParticipantJoined": "{user} 已加入",
+      "statusParticipantLeft": "{user} 已离开"
+    },
+    "general": {
+      "aborted": "实验无法继续，因为有协作参与者已离开会话。请继续提交结果。"
+    }
+  }
+}

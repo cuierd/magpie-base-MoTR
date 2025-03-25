@@ -33,10 +33,11 @@
       "belowHighschool": "screens.PostTestScreen.belowHighschool"
     },
     "SubmitResultsScreen": {
-      "waiting": "Hold on, while we submit your data.",
-      "done": "All done. Thank you!",
-      "error": "Oh, no. There was a problem submitting your results.",
-      "contact": "Please contact the author of this experiment via email:"
+      "waiting": "Submitting your data, please wait...",
+      "done": "All done. Thank you! The page will automatically redirect to Prolific (if it doesn't redirect within a minute, you may close this page)...",
+      "error": "There was a problem submitting the results online.",
+      "contact": "Please click the button below to download your data, then send it as an email attachment to the author of this study:",
+      "download": "Download Data"
     }
   },
   "general": {

@@ -519,7 +519,7 @@ const addEmptyColumns = function (trialData) {
         !Object.prototype.hasOwnProperty.call(trialData[j], columns[k]) ||
         typeof trialData[j] === 'undefined'
       ) {
-        trialData[j][columns[k]] = 'NA';
+        trialData[j][columns[k]] = '';
       }
     }
   }
