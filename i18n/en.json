@@ -36,7 +36,7 @@
       "waiting": "Submitting your data, please wait...",
       "done": "All done. Thank you! The page will automatically redirect to Prolific (if it doesn't redirect within a minute, you may close this page)...",
       "error": "There was a problem submitting the results online.",
-      "contact": "Please click the button below to download your data, then send it as an email attachment to the author of this study:",
+      "contact": "In order not to waste your valuable time and data, please click the button below to download your data, then send it as an email attachment to the author of this study:",
       "download": "Download Data"
     }
   },

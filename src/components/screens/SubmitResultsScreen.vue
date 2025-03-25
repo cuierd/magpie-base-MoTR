@@ -23,7 +23,7 @@
           </a>
         </p>
         <p v-text="" />
-        <button style= "bottom: 50%; transform: translate(-50%, -50%)" @click="downloadCsv">
+        <button style= "bottom: 40%; transform: translate(-50%, -50%)" @click="downloadCsv">
           {{ $t('screens.SubmitResultsScreen.download') }}
         </button>
       </div>
