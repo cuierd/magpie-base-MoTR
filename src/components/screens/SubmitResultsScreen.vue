@@ -16,16 +16,24 @@
       </p>
       <div v-else>
         <p>{{ $t('screens.SubmitResultsScreen.error') }}</p>
+        <p>{{ $t('screens.SubmitResultsScreen.manual') }}</p>
         <p>
           {{ $t('screens.SubmitResultsScreen.contact') }}
-          <a :href="'mailto:' + $magpie.contactEmail">
+          <a :href="'mailto:' + $magpie.contactEmail" target="_blank" rel="noopener">
             {{ $magpie.contactEmail }}
           </a>
         </p>
         <p v-text="" />
-        <button style= "bottom: 40%; transform: translate(-50%, -50%)" @click="downloadCsv">
+        <button style= "bottom: 30%; transform: translate(-50%, -50%)" @click="downloadCsv">
           {{ $t('screens.SubmitResultsScreen.download') }}
         </button>
+        <p>
+          {{ $t('screens.SubmitResultsScreen.upload') }}
+          <a :href="$magpie.uploadUrl" target="_blank" rel="noopener">
+            {{ $magpie.uploadUrl }}
+          </a>
+        </p>
+        <p>{{ $t('screens.SubmitResultsScreen.thanks') }}</p>
       </div>
     </Slide>
   </Screen>

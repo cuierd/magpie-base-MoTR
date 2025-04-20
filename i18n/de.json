@@ -32,10 +32,14 @@
       "comments": "Sonstige Kommentare"
     },
     "SubmitResultsScreen": {
-      "waiting": "Bitte kurz warten, während die Daten hochgeladen werden.",
-      "done": "Alles fertig. Vielen Dank!",
-      "error": "Oh nein. Es gab ein Problem beim Hochladen Ihrer Ergebnisse.",
-      "contact": "Bitte informieren Sie die Autor:innen dieses Experiments via E-Mail:"
+      "waiting": "Ihre Daten werden übermittelt, bitte warten...",
+      "done": "Alles erledigt. Vielen Dank! Die Seite wird automatisch zu Prolific weitergeleitet (wenn die Weiterleitung innerhalb einer Minute nicht erfolgt, können Sie diese Seite schließen)...",
+      "error": "Beim Hochladen der Ergebnisse ist ein Problem aufgetreten.",
+      "manual": "Um Ihre wertvolle Zeit nicht zu verschwenden, klicken Sie bitte auf die Schaltfläche unten, um Ihre Daten herunterzuladen, und führen Sie dann eine der folgenden Optionen aus:",
+      "contact": "Option 1: Senden Sie die Datei als E-Mail-Anhang an den Autor:",
+      "upload": "Option 2: Laden Sie die Daten anonym über folgenden Link hoch:",
+      "thanks": "Vielen Dank für Ihre Teilnahme!",
+      "download": "Daten herunterladen"
     }
   },
   "general": {

@@ -129,6 +129,15 @@ export default class Magpie extends EventEmitter {
      * @type {string}
      */
     this.contactEmail = options.contactEmail;
+
+    /**
+     * @instance
+     * @member uploadUrl
+     * @memberOf Magpie
+     * @type {string}
+     */
+    this.uploadUrl = options.uploadUrl;
+
     /**
      * @instance
      * @member mode
